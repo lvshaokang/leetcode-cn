@@ -17,8 +17,7 @@
 class Solution {
     /**
      * 递归
-     * // 为什么没有写出来
-     * // 思路被限制在了 mergeTrees 的返回结果和新产生的节点的关系
+     * 需要注意, mergeTrees 的返回结果与合并后的新节点的关系
      */
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) {
